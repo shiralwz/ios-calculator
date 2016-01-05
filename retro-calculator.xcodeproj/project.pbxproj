@@ -14,6 +14,8 @@
 		0B5FAFDE1C3AB85200F5F737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5FAFDC1C3AB85200F5F737 /* LaunchScreen.storyboard */; };
 		0B5FAFE91C3AB85200F5F737 /* retro_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5FAFE81C3AB85200F5F737 /* retro_calculatorTests.swift */; };
 		0B5FAFF41C3AB85200F5F737 /* retro_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5FAFF31C3AB85200F5F737 /* retro_calculatorUITests.swift */; };
+		0B5FB0021C3BB00B00F5F737 /* beacon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B5FB0011C3BB00B00F5F737 /* beacon.ttf */; };
+		0B5FB0041C3BB6F700F5F737 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B5FB0031C3BB6F700F5F737 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0B5FAFEF1C3AB85200F5F737 /* retro-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "retro-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5FAFF31C3AB85200F5F737 /* retro_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retro_calculatorUITests.swift; sourceTree = "<group>"; };
 		0B5FAFF51C3AB85200F5F737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5FB0011C3BB00B00F5F737 /* beacon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = beacon.ttf; sourceTree = "<group>"; };
+		0B5FB0031C3BB6F700F5F737 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		0B5FAFD21C3AB85200F5F737 /* retro-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				0B5FB0011C3BB00B00F5F737 /* beacon.ttf */,
+				0B5FB0031C3BB6F700F5F737 /* btn.wav */,
 				0B5FAFD31C3AB85200F5F737 /* AppDelegate.swift */,
 				0B5FAFD51C3AB85200F5F737 /* ViewController.swift */,
 				0B5FAFD71C3AB85200F5F737 /* Main.storyboard */,
@@ -229,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B5FB0041C3BB6F700F5F737 /* btn.wav in Resources */,
 				0B5FAFDE1C3AB85200F5F737 /* LaunchScreen.storyboard in Resources */,
 				0B5FAFDB1C3AB85200F5F737 /* Assets.xcassets in Resources */,
+				0B5FB0021C3BB00B00F5F737 /* beacon.ttf in Resources */,
 				0B5FAFD91C3AB85200F5F737 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +490,7 @@
 				0B5FAFFA1C3AB85200F5F737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B5FAFFB1C3AB85200F5F737 /* Build configuration list for PBXNativeTarget "retro-calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				0B5FAFFD1C3AB85200F5F737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B5FAFFE1C3AB85200F5F737 /* Build configuration list for PBXNativeTarget "retro-calculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				0B5FB0001C3AB85200F5F737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
